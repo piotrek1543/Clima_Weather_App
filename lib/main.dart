@@ -28,6 +28,8 @@ class MyApp extends StatelessWidget {
 class WeatherPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      theme: ThemeData.dark(),
+    );
   }
 }
