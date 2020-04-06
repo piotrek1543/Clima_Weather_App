@@ -1,3 +1,4 @@
+import 'package:climaweatherapp/loading_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -30,6 +31,7 @@ class WeatherPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark(),
+      home: LoadingScreen(),
     );
   }
 }
