@@ -1,3 +1,4 @@
+import 'package:climaweatherapp/constants.dart';
 import 'package:flutter/material.dart';
 
 class CityScreen extends StatefulWidget {
@@ -35,9 +36,10 @@ class _CityScreenState extends State<CityScreen> {
                 child: null,
               ),
               FlatButton(
-                onPressed: null,
+                onPressed: () {},
                 child: Text(
                   'Get Weather',
+                  style: kButtonTextStyle,
                 ),
               ),
             ],

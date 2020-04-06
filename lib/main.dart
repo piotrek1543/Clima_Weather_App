@@ -1,5 +1,5 @@
-import 'package:climaweatherapp/city_screen.dart';
-import 'package:climaweatherapp/loading_screen.dart';
+import 'package:climaweatherapp/screens/city_screen.dart';
+import 'package:climaweatherapp/screens/loading_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
