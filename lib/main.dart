@@ -1,3 +1,4 @@
+import 'package:climaweatherapp/city_screen.dart';
 import 'package:climaweatherapp/loading_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -31,7 +32,7 @@ class WeatherPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark(),
-      home: LoadingScreen(),
+      home: CityScreen(),
     );
   }
 }
