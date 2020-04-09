@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../constants.dart';
-import '../models/weather_model.dart';
+import '../services/weather_service.dart';
 
 class LocationScreen extends StatefulWidget {
   final locationWeather;
@@ -17,7 +17,7 @@ class _LocationScreenState extends State<LocationScreen> {
   String cityName;
   String weatherMessage;
 
-  WeatherModel weather = WeatherModel();
+  WeatherService weather = WeatherService();
 
   @override
   void initState() {
