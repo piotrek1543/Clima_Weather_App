@@ -25,7 +25,8 @@ flutter:
 
   uses-material-design: true
   assets:
-    - images/
+    - images/city_background.jpg
+    - images/location_background.jpg
   fonts:
     - family: Spartan MB
       fonts:
